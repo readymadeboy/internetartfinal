@@ -46,12 +46,12 @@
   position: absolute;
   left: -30%;
   top: 1227px;
-  animation: move 1.12s linear;
+  animation: move2 1.12s linear;
   animation-iteration-count: infinite;
   animation-delay: .4s;
   width: 150px;
 }
-@-webkit-keyframes move {
+@keyframes move {
   from {
     left: -30%;
   }
@@ -59,6 +59,14 @@
     left: 130%;
   }
 }
+  @keyframes move2{
+    from{
+      left: 130%;
+    }
+    to{
+      left: -30%;
+    }
+  }  
 
 
 </style>
